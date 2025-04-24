@@ -1,0 +1,51 @@
+{
+  "_id": {
+    "$oid": "680a1c07ccfb288333d861e0"
+  },
+  "name": "Paqui Ramos",
+  "address": {
+    "street": "Avenida principal",
+    "number": 10,
+    "door": 2,
+    "city": "Madrid",
+    "country": "Spain"
+  },
+  "phone": 612345678,
+  "email": "paqui@mail.com",
+  "register_date": {
+    "$date": "2023-02-01T10:20:00.000Z"
+  },
+  "purchase": {
+    "glasses": {
+      "brand": "Rayban",
+      "graduation_l": 0.5,
+      "graduation_r": 0.75,
+      "glass_color_l": "Black",
+      "glass_color_r": "Clear",
+      "frame_color": "Black",
+      "frame_type": "Metallic",
+      "price": 127.0
+    },
+    "supplier": {
+      "name": "Gafas SL",
+      "address": {
+        "street": "Avenida principal",
+        "number": 10,
+        "door": 2,
+        "city": "Madrid",
+        "country": "Spain"
+      },
+      "phone": 92345844124,
+      "fax": 11993112,
+      "nif": "7654321W"
+    },
+    "sold_by": {
+      "name": "Víctor Romero",
+      "mail": "victor@mail.com",
+      "dni": "1984812L"
+    },
+    "date": {
+      "$date": "2025-11-28T09:19:00.000Z"
+    }
+  }
+}
