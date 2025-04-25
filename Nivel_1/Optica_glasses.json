@@ -1,0 +1,50 @@
+{
+  "brand": "Rayban",
+  "graduation": {
+    "left": 0.5,
+    "right": 0.75
+  },
+  "glass_color": {
+    "left": "Black",
+    "right": "Clear"
+  },
+  "frame_color": "Black",
+  "frame_type": "Metallic",
+  "supplier": {
+    "name": "Gafas SL",
+    "address": {
+      "street": "C/Gran de Gracia",
+      "number": 89,
+      "door": 1,
+      "city": "Barcelona",
+      "country": "Spain"
+    },
+    "phone": 92345844124,
+    "fax": 11993112,
+    "nif": "7654321W"
+  },
+  "price": 127.0,
+  "bought_by": {
+    "name": "Paqui Ramos",
+    "address": {
+      "street": "Avenida principal",
+      "number": 10,
+      "door": 2,
+      "city": "Madrid",
+      "country": "Spain"
+    },
+    "phone": 612345678,
+    "email": "paqui@mail.com",
+    "register_date": {
+      "$date": "2023-02-01T10:20:00.000Z"
+    }
+  },
+  "sold_by": {
+    "name": "Víctor Romero",
+    "mail": "victor@mail.com",
+    "dni": "1984812L"
+  },
+  "date": {
+    "$date": "2025-11-28T09:19:00.000Z"
+  }
+}
