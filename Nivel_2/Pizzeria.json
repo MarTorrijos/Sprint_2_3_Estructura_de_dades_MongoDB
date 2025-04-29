@@ -1,0 +1,72 @@
+{
+  "_id": {
+    "$oid": "680a1c07ccfb288333d861e1"
+  },
+  "order_date": {
+    "$date": "2023-02-01T10:19:10.000Z"
+  },
+  "client": {
+    "name": "Paqui Ramos",
+    "address": {
+      "street": "Avenida principal",
+      "number": 10,
+      "door": 2,
+      "city": "Madrid",
+      "country": "Spain"
+    },
+    "phone": 612345678,
+    "email": "paqui@mail.com"
+  },
+  "items": [
+    {"item_1": {
+      "type": "Pizza",
+      "description": "Pizza with cheese and a tomato sauce base",
+      "name": "Pizza Margarita",
+      "photo": "https://tinyurl.com/279zbjmk",
+      "quantity": 1,
+      "price": 10.9}
+    },
+    {"item_2": {
+      "type": "Pizza",
+      "description": "Pizza with different types of meat and a sweet bbq sauce. The peppers are not optional but a must",
+      "name": "Pizza BBQ",
+      "photo": "http://tiny.cc/y23i001",
+      "quantity": 2,
+      "price": 11}
+    },
+    {"item_4": {
+      "type": "Drink",
+      "description": "Good ol' water",
+      "name": "Water",
+      "photo": "https://tinyurl.com/279zbjmk",
+      "quantity": 3,
+      "price": 2.5}
+    }
+  ],
+  "notes": "The client wants the margarita without cheese",
+  "total_price": 49.9,
+  "store": {
+    "_id": {
+      "$oid": "199af00199aa23d"
+    },
+    "address": {
+      "street": "Avenida secundaria",
+      "number": 19,
+      "door": 5,
+      "city": "Madrid",
+      "country": "Spain"
+    }
+  },
+  "delivery": {
+    "delivery_method": "delivery",
+    "status": "delivered",
+    "delivery_date": {
+      "$date": "2023-02-01T10:20:00.000Z"
+    },
+    "delivered_by": {
+      "name": "Carlos Sanchez",
+      "nif": "419477912W",
+      "phone": 931248822
+    }
+  }
+}
